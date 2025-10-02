@@ -1,0 +1,68 @@
+/* Style 2 - Vert Nature */
+body {
+    background: linear-gradient(45deg, #56ab2f, #a8e6cf);
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.container {
+    background: #f0fff0;
+    padding: 40px;
+    border-radius: 25px;
+    border: 3px solid #228b22;
+    box-shadow: 0 15px 40px rgba(34,139,34,0.3);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #228b22;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-size: 32px;
+}
+
+label {
+    display: block;
+    color: #006400;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+select, input[type='submit'] {
+    width: 100%;
+    padding: 18px;
+    margin: 15px 0;
+    border: 3px solid #32cd32;
+    border-radius: 15px;
+    font-size: 18px;
+    background: #f0fff0;
+    font-family: 'Georgia', serif;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    background: linear-gradient(45deg, #32cd32, #228b22);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+input[type='submit']:hover {
+    background: linear-gradient(45deg, #228b22, #006400);
+}
+
+.message {
+    text-align: center;
+    color: #228b22;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+

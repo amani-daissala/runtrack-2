@@ -1,0 +1,61 @@
+/* Style 1 - Bleu Classique */
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #667eea;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select, input[type='submit'] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #667eea;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+input[type='submit']:hover {
+    background: #5a67d8;
+}
+
+.message {
+    text-align: center;
+    color: #667eea;
+    font-weight: bold;
+    margin-top: 20px;
+}
